@@ -1,6 +1,14 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["tailwind.config.ts", "vite.config.ts"],
+  "include": [
+    "tailwind.config.ts",
+    "vite.config.ts",
+    "tailwind.config.ts",
+    "vite.config.ts",
+    "load-context.ts",
+    "worker-configuration.d.ts",
+    "app/cookie.server.ts"
+  ],
   "compilerOptions": {
     "composite": true,
     "strict": true,
